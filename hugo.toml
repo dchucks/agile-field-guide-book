@@ -1,0 +1,15 @@
+baseURL = "https://example.com/"
+languageCode = "en"
+title = "The Agile Field Guide"
+theme = ""
+
+[params]
+  description = "Agile that actually works! No theater, no buzzwords, just results."
+  author = "Debashish Chakrabarty"
+  price = "$11"
+  originalPrice = "$17"
+  
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

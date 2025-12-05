@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Title }} - {{ .Site.Params.description }}</title>
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    {{ partial "navigation.html" . }}
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">The Agile Field Guide</h1>
+                    <h2 class="hero-subtitle">Agile that actually works! No theater, no buzzwords, just results.</h2>
+                    <p class="hero-description">
+                        Most teams struggle with Scrum not because the framework is broken, but because they're drowning in Zombie Stand-ups, endless meetings, and rigid processes disguised as "Sprints." Sound familiar?
+                    </p>
+                    <p class="hero-description">
+                        The <strong>Agile Field Guide</strong> provides a battle-tested playbook to make Agile work in the real world. Whether you're a Scrum Master fighting distractions, a Product Owner managing impossible stakeholder demands, or a developer trying to ship value without ceremony overload, this guide delivers actionable answers.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#buy-now" class="btn btn-primary">Get Your Copy</a>
+                        <a href="#what-inside" class="btn btn-secondary">What's Inside</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="{{ "images/book-cover.png" | relURL }}" alt="The Agile Field Guide cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Book Section -->
+    <section id="about-book" class="about-section">
+        <div class="container">
+            <h2 class="section-title">Stop Going Through the Motions. Start Delivering Value.</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Battle-Tested Playbook</h3>
+                    <p>Make Agile work in the real world with practical, proven strategies that deliver actual results, not just compliance checkboxes.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Avoid 7 Deadly Pitfalls</h3>
+                    <p>Learn to spot and eliminate Zombie Stand-ups, endless meetings, and rigid processes that masquerade as "Agile" transformation.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Scale Without Killing Innovation</h3>
+                    <p>Master SAFe, LeSS, Nexus, and Scrum of Scrums to grow your Agile practice while maintaining team autonomy and creativity.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎲</div>
+                    <h3>Choose the Right Framework</h3>
+                    <p>Understand when to use Scrum, Kanban, XP, Lean, or DSDM based on your actual context, not industry hype.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌱</div>
+                    <h3>Sustain Agile Culture</h3>
+                    <p>Build and maintain an authentic Agile culture that lasts beyond the initial transformation enthusiasm.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Real Case Studies</h3>
+                    <p>Learn from actual implementations with practical tips, actionable cheat sheets, and lessons from the trenches.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's Inside Section -->
+    <section id="what-inside" class="sneak-peek-section">
+        <div class="container">
+            <h2 class="section-title">What's Inside</h2>
+            
+            <div class="content-box">
+                <h3>You'll Learn How To:</h3>
+                <ul class="benefits-list">
+                    <li>Avoid the 7 deadly Scrum pitfalls that derail most transformations</li>
+                    <li>Scale Agile without killing innovation using SAFe, LeSS, Nexus, or Scrum of Scrums</li>
+                    <li>Choose the right framework (Scrum, Kanban, XP, Lean, DSDM) for your context</li>
+                    <li>Sustain Agile culture for the long haul beyond initial excitement</li>
+                    <li>Eliminate ceremony overload while maintaining team effectiveness</li>
+                    <li>Manage stakeholder demands without compromising team velocity</li>
+                    <li>Ship actual value instead of just completing sprints</li>
+                </ul>
+            </div>
+
+            <div class="content-box highlight-box">
+                <h3>🍭 Bonus Content</h3>
+                <p><strong>Self-Assessment Quiz</strong> with correct answers to test your Agile transformation progress and identify areas for improvement.</p>
+            </div>
+
+            <div class="content-box">
+                <h3>Perfect For:</h3>
+                <div class="audience-grid">
+                    <div class="audience-card">
+                        <h4>Scrum Masters</h4>
+                        <p>Fighting distractions and trying to keep ceremonies meaningful</p>
+                    </div>
+                    <div class="audience-card">
+                        <h4>Product Owners</h4>
+                        <p>Managing impossible stakeholder demands while protecting team capacity</p>
+                    </div>
+                    <div class="audience-card">
+                        <h4>Developers</h4>
+                        <p>Trying to ship value without ceremony overload</p>
+                    </div>
+                    <div class="audience-card">
+                        <h4>Agile Coaches</h4>
+                        <p>Leading transformations that deliver lasting cultural change</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What Readers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Finally, a book that cuts through the Agile theater and shows you what actually works. No fluff, just battle-tested strategies."</p>
+                    <p class="testimonial-author">— Senior Scrum Master, Tech Startup</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"This guide helped us eliminate our Zombie Stand-ups and focus on delivering real value. Our velocity increased by 40%."</p>
+                    <p class="testimonial-author">— Product Owner, Enterprise Company</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"The framework comparison section alone is worth the price. Saved us months of trial and error."</p>
+                    <p class="testimonial-author">— Engineering Manager, SaaS Company</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Author Section -->
+    <section id="author" class="author-section">
+        <div class="container">
+            <h2 class="section-title">Meet the Author</h2>
+            <div class="author-content">
+                <div class="author-image">
+                    <img src="{{ "images/author-photo.png" | relURL }}" alt="Debashish Chakrabarty">
+                </div>
+                <div class="author-bio">
+                    <h3>Debashish Chakrabarty</h3>
+                    <p>
+                        Debashish is a software professional based in Pune, India, with decades of experience in Agile transformations across startups and enterprises. He has been blogging since 2002 in English and Hindi, sharing insights on software development, Agile practices, and technology leadership.
+                    </p>
+                    <p>
+                        He founded India's first blog awards <strong>Indibloggies</strong>, pioneered Hindi blogging platforms like <strong>Chittha Vishwa</strong>, and created <strong>Podbharati</strong>, India's first Hindi podcast platform. His work has been recognized with nominations for prestigious awards including the TATA Nen Hottest Startup award.
+                    </p>
+                    <p>
+                        Currently, he publishes newsletters <strong>The Agile Chronicles</strong> and <strong>Podcast Parikrama</strong>, sharing practical wisdom on Agile methodologies and the evolving audio landscape.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buy Now Section -->
+    <section id="buy-now" class="buy-section">
+        <div class="container">
+            <h2 class="section-title">Get Your Copy Today</h2>
+            <p class="buy-intro">Available in eBook and Paperback formats</p>
+            
+            <div class="pricing-grid">
+                <!-- eBook Options -->
+                <div class="pricing-card featured">
+                    <h3>eBook Edition</h3>
+                    <div class="price">
+                        <span class="current-price">₹299</span>
+                        <span class="original-price">₹499</span>
+                    </div>
+                    <p class="format-desc">Instant download • PDF & Kindle formats</p>
+                    <div class="button-group">
+                        <a href="https://topmate.io/debashishc/1471769" class="btn btn-primary" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-book"></i>
+                            Buy PDF on Topmate
+                        </a>
+                        <a href="https://www.amazon.in/dp/B0G35V389J" class="btn btn-secondary amazon-btn" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-amazon"></i>
+                            Kindle on Amazon India
+                        </a>
+                    </div>
+                    <p class="edition-note">Choose your preferred format</p>
+                </div>
+                
+                <!-- Paperback Options -->
+                <div class="pricing-card">
+                    <h3>Paperback Edition</h3>
+                    <div class="price">
+                        <span class="current-price">Varies</span>
+                    </div>
+                    <p class="format-desc">Physical book • Worldwide shipping</p>
+                    <div class="button-group">
+                        <a href="https://www.amazon.com/dp/B0G385XMRB" class="btn btn-secondary amazon-btn" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-amazon"></i>
+                            Amazon Worldwide
+                        </a>
+                        <a href="https://store.pothi.com/book/debashish-chakrabarty-agile-field-guide/" class="btn btn-secondary" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-book"></i>
+                            Pothi.com (India)
+                        </a>
+                    </div>
+                    <p class="edition-note">Ships from local warehouses</p>
+                </div>
+            </div>
+
+			<!--
+            <div class="format-comparison">
+                <h3>Not Sure Which Format?</h3>
+                <div class="comparison-grid">
+                    <div class="comparison-card">
+                        <h4>📱 eBook (PDF/Kindle)</h4>
+                        <ul>
+                            <li>✓ Instant access</li>
+                            <li>✓ Searchable text</li>
+                            <li>✓ Read on any device</li>
+                            <li>✓ Lower price</li>
+                        </ul>
+                    </div>
+                    <div class="comparison-card">
+                        <h4>📖 Paperback</h4>
+                        <ul>
+                            <li>✓ Physical book feel</li>
+                            <li>✓ Easy note-taking</li>
+                            <li>✓ No screen time</li>
+                            <li>✓ Collectible edition</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+			-->
+
+            <div class="newsletter-box">
+                <h3>Want to Stay Updated on Agile Best Practices?</h3>
+                <p>Subscribe to <strong>The Agile Chronicles</strong> newsletter for practical Agile tips, case studies, and insights delivered to your inbox.</p>
+                <!--<a href="https://agilechronicles.substack.com/" class="btn btn-primary" target="_blank" rel="noopener">Subscribe to Newsletter</a> -->
+				<iframe src="https://agilechronicles.substack.com/embed" width="100%" height="320" allowTransparency="true" style="border:0px solid #EEE;" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Is this book suitable for beginners?</h3>
+                    <p>While the book is accessible to those new to Agile, it's particularly valuable for practitioners who've experienced Agile transformations and want to move beyond surface-level implementation to achieve real results.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What makes this different from other Agile books?</h3>
+                    <p>This isn't theory from consultants—it's a practical field guide based on real implementations. We focus on what actually works, including the pitfalls others won't tell you about.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do I need to know Scrum already?</h3>
+                    <p>Basic familiarity with Agile concepts is helpful but not required. The book explains frameworks clearly while focusing on practical application over certification prep.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is the eBook version different from the paperback?</h3>
+                    <p>No, both versions contain the same comprehensive content. Choose based on your reading preference—instant digital access or physical book experience.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I buy this for my team?</h3>
+                    <p>Absolutely! Bulk purchases are available. Contact the author directly through the Podbharati contact form for team pricing options.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What's included in the bonus content?</h3>
+                    <p>The book includes a comprehensive self-assessment quiz with detailed answers that helps you evaluate your team's Agile maturity and identify specific areas for improvement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{ partial "footer.html" . }}
+    
+    <script src="{{ "js/main.js" | relURL }}"></script>
+</body>
+</html>
