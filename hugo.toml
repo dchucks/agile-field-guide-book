@@ -1,7 +1,7 @@
 baseURL = "https://example.com/"
 languageCode = "en"
 title = "The Agile Field Guide"
-theme = ""
+theme = "book-promo"
 
 [params]
   description = "Agile that actually works! No theater, no buzzwords, just results."
