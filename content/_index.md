@@ -13,8 +13,8 @@ featuresTitle: "Stop Going Through the Motions. Start Delivering Value."
 whatsInsideTitle: "What's Inside"
 testimonialsTitle: "What Readers Say"
 authorTitle: "Meet the Author"
-#buyTitle: "Get Your Copy Today"
-#faqTitle: "Frequently Asked Questions"
+buyTitle: "Get Your Copy Today"
+faqTitle: "Frequently Asked Questions"
 
 # Buy Links - Organized by Category
 buyLinks:
@@ -50,6 +50,10 @@ newsletter:
   title: "Want to Stay Updated on Agile Best Practices?"
   description: "Subscribe to **The Agile Chronicles** newsletter for practical Agile tips, case studies, and insights delivered to your inbox."
   url: "https://agilechronicles.substack.com/"
+  
+# Testimonials Configuration
+testimonials:
+  enabled: false 
 
 # Images
 heroImage: "/images/book-cover.png"

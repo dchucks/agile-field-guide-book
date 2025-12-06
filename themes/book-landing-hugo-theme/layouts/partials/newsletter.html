@@ -4,10 +4,11 @@
         <div class="newsletter-box">
             <h3>{{ .Params.newsletter.title }}</h3>
             <p>{{ .Params.newsletter.description | markdownify }}</p>
-            <a href="{{ .Params.newsletter.url }}" class="btn btn-primary" target="_blank" rel="noopener">
+          <!--  <a href="{{ .Params.newsletter.url }}" class="btn btn-primary" target="_blank" rel="noopener">
                 <i class="fa-solid fa-envelope"></i>
                 Subscribe to Newsletter
-            </a>
+            </a> -->
+			<iframe src="https://agilechronicles.substack.com/embed" width="100%" height="320" style="border:0px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
         </div>
     </div>
 </section>
