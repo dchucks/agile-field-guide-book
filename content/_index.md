@@ -16,34 +16,6 @@ authorTitle: "Meet the Author"
 buyTitle: "Get Your Copy Today"
 faqTitle: "Frequently Asked Questions"
 
-# Buy Links - Organized by Category
-buyLinks:
-  # eBook Options
-  - name: "Buy PDF on Topmate"
-    url: "https://topmate.io/debashishc/1471769"
-    icon: "fa-solid fa-book"
-    type: "primary"
-    category: "ebook"
-  
-  - name: "Kindle on Amazon India"
-    url: "https://www.amazon.in/dp/B0G35V389J"
-    icon: "fa-brands fa-amazon"
-    type: "secondary"
-    category: "ebook"
-  
-  # Paperback Options
-  - name: "Amazon Worldwide"
-    url: "https://www.amazon.com/dp/B0G385XMRB"
-    icon: "fa-brands fa-amazon"
-    type: "secondary"
-    category: "paperback"
-  
-  - name: "Pothi.com (India)"
-    url: "https://store.pothi.com/book/debashish-chakrabarty-agile-field-guide/"
-    icon: "fa-solid fa-book"
-    type: "secondary"
-    category: "paperback"
-
 # Newsletter Configuration
 newsletter:
   enabled: true

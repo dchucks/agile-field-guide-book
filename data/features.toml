@@ -15,7 +15,7 @@ description = "Master SAFe, LeSS, Nexus, and Scrum of Scrums to grow your Agile 
 
 [[features]]
 icon = "🎲"
-title = "Choose the Right Framework"
+title = "Choose the Right Agile Framework"
 description = "Understand when to use Scrum, Kanban, XP, Lean, or DSDM based on your actual context, not industry hype."
 
 [[features]]
@@ -25,5 +25,5 @@ description = "Build and maintain an authentic Agile culture that lasts beyond t
 
 [[features]]
 icon = "📊"
-title = "Real Case Studies"
-description = "Learn from actual implementations with practical tips, actionable cheat sheets, and lessons from the trenches."
+title = "Understand Estimation & Prioritization"
+description = "Apply Agile estimation methods and backlog prioritization techniques to predict delivery & actually deliver with confidence"

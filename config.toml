@@ -18,9 +18,9 @@ theme = "book-landing-hugo-theme"
   
   # Social Media
   [params.author.social]
-	website = "https://podbharati.com"
+	website = "https://debashish.com"
 	newsletter = "https://agilechronicles.substack.com/"
-	podcast = "https://parikrama.substack.com"
+	podcast = "https://youtube.com@agilechronicles"
   
   # Contact
   [params.contact]
