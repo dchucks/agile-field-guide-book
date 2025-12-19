@@ -13,6 +13,51 @@ highlighted = true
 #]
 
 [[options]]
+title = "Paperback"
+description = "Available on Amazon India"
+#icon = "fa-solid fa-book"
+icon = "fa-brands fa-amazon"
+price = "₹399"
+originalPrice = ""
+url = "https://www.amazon.in/dp/9354690173"
+highlighted = false
+
+#features = [
+#    "Free shipping eligible",
+ #   "Premium paper quality",
+#    "Perfect binding"
+#]
+
+[[options]]
+title = "Paperback"
+description = "Available on Flipkart India"
+img = "/images/flipkart-icon.jpg"
+price = "₹399"
+originalPrice = ""
+url = "https://www.flipkart.com/agile-field-guide-starter-kit-real-world/p/itmcae60e304a637?pid=9789354690174"
+highlighted = false
+
+#features = [
+#    "Free shipping eligible",
+ #   "Premium paper quality",
+#    "Perfect binding"
+#]
+
+[[options]]
+title = "Paperback"
+description = "Available via Pothi.com in India"
+img = "/images/pothi-icon.jpg"
+price = "₹399"
+originalPrice = ""
+url = "https://store.pothi.com/book/debashish-chakrabarty-agile-field-guide/"
+highlighted = false
+#features = [
+#    "Dust jacket included",
+#    "Collector's edition",
+  #  "Signed copy available"
+#]
+
+[[options]]
 title = "Amazon Kindle"
 description = "Available Worldwide"
 icon = "fa-brands fa-amazon"
@@ -40,18 +85,4 @@ highlighted = false
 #    "Free shipping eligible",
  #   "Premium paper quality",
 #    "Perfect binding"
-#]
-
-[[options]]
-title = "Paperback"
-description = "Available via Pothi.com in India"
-icon = "fa-solid fa-book-open"
-price = "₹399"
-originalPrice = ""
-url = "https://store.pothi.com/book/debashish-chakrabarty-agile-field-guide/"
-highlighted = false
-#features = [
-#    "Dust jacket included",
-#    "Collector's edition",
-  #  "Signed copy available"
 #]

@@ -16,7 +16,12 @@
                 {{ end }}
                 
                 <div class="buy-card-icon">
+					{{if $option.icon }}
                     <i class="{{ $option.icon }}"></i>
+					{{ end }}
+					{{if $option.img }}
+					<img src="{{ $option.img }}">
+					{{ end }}
                 </div>
                 
                 <h3 class="buy-card-title">{{ $option.title }}</h3>
