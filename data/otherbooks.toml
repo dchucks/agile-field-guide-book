@@ -18,3 +18,10 @@ description = "Don't let the complexity of Amazon's LPs hold you back. Unlock th
 cover = "/images/other-books/cracking-amazon-interview.jpg"
 buyUrl = "https://amzn.in/d/h0P93uP"
 price = "₹350"
+
+[[books]]
+title = "The PSPO-I Certification Study Guide for Diligent Professionals"
+description = "COMING SOON!"
+cover = "/images/other-books/pspo-study-guide.jpg"
+buyUrl = ""
+price = ""
