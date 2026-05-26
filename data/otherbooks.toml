@@ -2,7 +2,7 @@
 title = "पॉडकास्टिंग कैसे करें? How to launch your own Podcast?"
 description = "Whether you are a student, a professional, a homemaker, or a retiree, this book gives you everything you need to launch and grow your own podcast with confidence."
 cover = "/images/other-books/podcasting-guide-cover.jpg"
-buyUrl = "https://www.amazon.in/dp/9334292393"
+buyUrl = "https://podcasting-guide.netlify.app/#buy-now"
 price = "₹399"
 
 [[books]]
@@ -20,8 +20,8 @@ buyUrl = "https://amzn.in/d/h0P93uP"
 price = "₹350"
 
 [[books]]
-title = "The PSPO-I Certification Study Guide for Diligent Professionals"
-description = "COMING SOON!"
+title = "Scrum Product Owner Certification Study Guide"
+description = "A high-impact, practitioner-led roadmap that bypasses excessive theory to focus on the core competencies required to lead as a professional Scrum Product Owner."
 cover = "/images/other-books/pspo-study-guide.jpg"
-buyUrl = ""
-price = ""
+buyUrl = "https://scrum-product-owner-study-guide.netlify.app/#buy-now"
+price = "₹749"
