@@ -86,3 +86,20 @@ highlighted = false
  #   "Premium paper quality",
 #    "Perfect binding"
 #]
+
+[[options]]
+title = "Paperback"
+description = "On Barnes & Noble"
+icon = "fa-solid fa-book"
+#icon = "fa-brands fa-amazon"
+price = "$8.25"
+originalPrice = ""
+url = "https://www.barnesandnoble.com/w/agile-field-guide-debashish-chakrabarty/1150825185?ean=9789354690174"
+highlighted = false
+
+#features = [
+#    "Free shipping eligible",
+ #   "Premium paper quality",
+#    "Perfect binding"
+#]
+
