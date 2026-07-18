@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://agile-field-guide.netlify.app/"
 languageCode = "en-us"
 title = "The Agile Field Guide"
 theme = "book-landing-hugo-theme"
