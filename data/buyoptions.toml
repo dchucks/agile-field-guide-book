@@ -5,7 +5,7 @@ icon = "fa-solid fa-file-pdf"
 price = "₹299"
 originalPrice = "₹499"
 url = "https://topmate.io/debashishc/1471769"
-highlighted = true
+highlighted = false
 #features = [
 #    "Multiple formats",
 #    "No DRM restrictions",
@@ -50,7 +50,7 @@ img = "/images/pothi-icon.jpg"
 price = "₹399"
 originalPrice = ""
 url = "https://store.pothi.com/book/debashish-chakrabarty-agile-field-guide/"
-highlighted = false
+highlighted = true
 #features = [
 #    "Dust jacket included",
 #    "Collector's edition",
@@ -90,16 +90,53 @@ highlighted = false
 [[options]]
 title = "Paperback"
 description = "On Barnes & Noble"
-icon = "fa-solid fa-book"
-#icon = "fa-brands fa-amazon"
+img = "/images/B&N.png"
 price = "$8.25"
 originalPrice = ""
 url = "https://www.barnesandnoble.com/w/agile-field-guide-debashish-chakrabarty/1150825185?ean=9789354690174"
 highlighted = false
 
-#features = [
-#    "Free shipping eligible",
- #   "Premium paper quality",
-#    "Perfect binding"
-#]
+[[options]]
+title = "Paperback"
+description = "On Foyles (UK)"
+img = "/images/foyles.png"
+price = "£6.99"
+originalPrice = ""
+url = "https://www.foyles.co.uk/book/agile-field-guide/debashish-chakrabarty/9789354690174"
+highlighted = false
 
+[[options]]
+title = "Paperback"
+description = "On AbeBooks (UK)"
+img = "/images/abe-books.png"
+price = "From £10.56"
+originalPrice = ""
+url = "https://www.abebooks.co.uk/servlet/SearchResults?inclcons=B0DNY1W4T7&incltsets=B0G362XH89"
+highlighted = false
+
+[[options]]
+title = "Paperback"
+description = "On BookDelivery by Buscalibre (China)"
+img = "/images/buscalibre.png"
+price = "¥100.06"
+originalPrice = ""
+url = "https://www.bookdelivery.com/cn-en/book-agile-field-guide-a-starter-kit-for-real-world-agile/9789354690174/p/68364422"
+highlighted = false
+
+[[options]]
+title = "Paperback"
+description = "On Donner (Netherlands)"
+img = "/images/donner.png"
+price = "€ 9,50"
+originalPrice = ""
+url = "https://www.donner.nl/en/products/agile-field-guide-9789354690174/"
+highlighted = false
+
+[[options]]
+title = "Paperback"
+description = "On Adlibris (Finland)"
+img = "/images/adlibris.png"
+price = "11,60 €"
+originalPrice = ""
+url = "https://www.adlibris.com/fi/kirja/agile-field-guide-9789354690174"
+highlighted = false
