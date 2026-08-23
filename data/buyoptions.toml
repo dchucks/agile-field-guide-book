@@ -140,3 +140,30 @@ price = "11,60 €"
 originalPrice = ""
 url = "https://www.adlibris.com/fi/kirja/agile-field-guide-9789354690174"
 highlighted = false
+
+[[options]]
+title = "Paperback"
+description = "On The Nile (Australia)"
+img = "/images/nile.png"
+price = "$17.82"
+originalPrice = ""
+url = "https://www.thenile.com.au/books/debashish-chakrabarty/agile-field-guide/9789354690174?srsltid=AfmBOoovKBsjrJenqH4zE4NskYYDpXyW2RsUsyVMrXa6wcEW-7smHf0f"
+highlighted = false
+
+[[options]]
+title = "Paperback"
+description = "On La Feltrinelli (Italy)"
+img = "/images/lafeltrinelli.png"
+price = "7,69 €"
+originalPrice = ""
+url = "https://www.lafeltrinelli.it/agile-field-guide-starter-kit-libro-inglese-debashish-chakrabarty/e/9789354690174?srsltid=AfmBOornm_SvjqtHqTOy1-iCoZ4tP7p5mVYaKZ0Y1i1roNcNIBUVATKH"
+highlighted = false
+
+[[options]]
+title = "Paperback"
+description = "On Payot (Switzerland)"
+img = "/images/payot.png"
+price = "CHF 13.50"
+originalPrice = ""
+url = "https://payot.ch/p/agile-field-guide-9789354690174"
+highlighted = false
